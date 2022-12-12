@@ -1,4 +1,5 @@
 import "../Styles/aboutMe.css";
+import "../Styles/index.css";
 
 const AboutMe = () => {
     return (

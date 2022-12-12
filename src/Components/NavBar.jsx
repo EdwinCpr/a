@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import "../Styles/aboutMe.css";
+import "../Styles/navBar.css";
 
 const NavBar = () => {
     const [ visible, setIsVisible ] = useState(false);
