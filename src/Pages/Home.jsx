@@ -1,5 +1,7 @@
 import MyPhoto from "../Images/My-photo.png";
 import CV from "../Images/Edwin-D-CV.pdf";
+import "../Styles/home.css";
+
 const Home = () => {
     return (
         <div>

@@ -5,6 +5,7 @@ import ReactR from "../Images/react-router.png";
 import Redux from "../Images/redux.png";
 import Javascript from "../Images/javascript.png";
 import Tailwind from "../Images/tailwind.png";
+import "../Styles/skills.css";
 
 const Skills = () => {
     return (

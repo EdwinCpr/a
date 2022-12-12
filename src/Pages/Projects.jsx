@@ -1,5 +1,6 @@
 import ToDo from "../Images/tasks.png";
 import Rick from "../Images/rick.png";
+import "../Styles/projects.css";
 
 const Projects = () => {
     return (

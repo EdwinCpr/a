@@ -1,3 +1,5 @@
+import "../Styles/aboutMe.css";
+
 const AboutMe = () => {
     return (
         <div className="background">
