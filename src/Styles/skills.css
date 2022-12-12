@@ -1,0 +1,65 @@
+.skills-all {
+    padding: 3rem .50rem;
+  }
+  
+  .skills-title h1 {
+    text-align: center;
+    color: #bffdbf;
+    -webkit-text-stroke: 1.5px #000;
+  }
+  
+  .techniques {
+    margin-top: 20px;
+  }
+  
+  .icon-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .icon {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .techniques-icon {
+    width: 2.8rem;
+    margin-top: 5px;
+    transition: 800ms;
+  }
+  
+  .techniques-icon:hover {
+    transform: scale(.60);
+    transition: 800ms;
+  }
+  
+  .soft {
+    margin-top: 20px;
+  }
+  
+  .mysoft-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-content: center;
+  }
+  
+  .mysoft {
+    margin-top: 10px;
+  }
+  
+  @media(min-width: 769px) {
+    .icon-flex {
+        gap: 1.8rem;
+    }
+  
+    .techniques-icon {
+        width: 3.5rem;
+    }
+  
+    .mysoft-flex {
+        gap: 2rem;
+    }
+  }

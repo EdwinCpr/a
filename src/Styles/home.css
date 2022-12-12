@@ -1,0 +1,79 @@
+.home-my-photo {
+    text-align: center;
+  }
+  
+  .home-my-photo img {
+    width: 100%;
+    background-color: #bffdbf;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .home-cv {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .home-cv button {
+    background-color: #000;
+    font-weight: bold;
+    padding: 8px 8px;
+    border: 1px solid #bffdbf;
+    border-radius: 5px;
+  }
+  
+  .home-cv button:hover {
+    background-color: #fff;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  .networks-flex {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .networks {
+    background-color: #000;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 7px;
+    color: #bffdbf;
+    transition: 500ms;
+    cursor: pointer;
+  }
+  
+  .networks:hover {
+    transition: 500ms;
+    transform: rotate(20deg);
+    color: #000;
+    background-color: #bffdbf;
+  }
+  
+  @media(min-width: 769px) {
+    .background {
+        margin-bottom: unset;
+    }
+  
+    .content {
+        width: 25rem;
+        height: 570px;
+    }
+  
+    .home-my-photo img {
+        height: 20rem;
+        object-fit: contain;
+    }   
+  
+    .home-title h1 {
+        margin-top: 30px;
+    }
+  
+    .networks {
+        font-size: 28px;
+    }
+  }

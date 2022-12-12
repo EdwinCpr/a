@@ -1,0 +1,24 @@
+.aboutme-all {
+    padding: 3rem .50rem;
+  }
+  
+  .aboutme-description {
+    margin: 1rem 1rem 0rem 1rem;
+    letter-spacing: 1px;
+    line-height: 22px;
+  }
+  
+  @media(min-width: 769px) {
+    .content {
+        margin-bottom: unset;
+    }
+  
+    .aboutme {
+        width: 25rem;
+        height: 570px;
+    }
+  
+    .aboutme-description {
+        line-height: 28px;
+    }
+  }

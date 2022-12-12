@@ -1,0 +1,61 @@
+/* Universal */
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.993);
+}
+
+.background {
+  display: flex;
+  height: 88vh;
+  justify-content: center;
+  padding-bottom: 2rem;
+  animation: backgroundAnimation 1s ease-out;
+}
+
+@keyframes backgroundAnimation{
+  0% {
+      transform: translateX(-100);
+      background-color: #bffdbf54
+  };
+  100% {
+      transform: translateX(100);
+      background-color: #bffdbf27
+  }
+}
+
+.title, .subtitle {
+  text-align: center;
+  color: #bffdbf;
+  -webkit-text-stroke: 1.5px #000;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.144);
+  width: 18rem;
+  height: 540px;
+  margin-top: 15px;
+  border: 1px solid #bffdbf;
+  border-radius: 10px;
+  animation: contentKey 1.5s ease-in alternate;
+}
+
+@keyframes contentKey {
+  0% {
+      transform: scale(0%);
+      opacity: 0.1
+  }
+  50% {
+      opacity: 0.1;
+  }
+  100% {
+      transform: scale(100%);
+      opacity: 1;
+  }
+}
